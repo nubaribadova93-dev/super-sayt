@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+  <meta charset="UTF-8">
+  <title>SuperGame | Oyun Dünyası</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0f172a;
+      color: white;
+      text-align: center;
+    }
+
+    header {
+      background: #020617;
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header h1 {
+      margin: 0;
+      color: #22c55e;
+    }
+
+    nav a {
+      color: #38bdf8;
+      margin-left: 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .hero {
+      padding: 80px 20px;
+      background: linear-gradient(135deg, #2563eb, #1e293b);
+    }
+
+    .hero h2 {
+      font-size: 40px;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      font-size: 20px;
+      margin-bottom: 20px;
+    }
+
+    .hero button {
+      padding: 12px 25px;
+      font-size: 18px;
+      background: #22c55e;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      color: white;
+    }
+
+    .games {
+      padding: 50px 20px;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .game-card {
+      background: #020617;
+      padding: 20px;
+      border-radius: 10px;
+      width: 250px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.5);
+      transition: transform 0.2s;
+    }
+
+    .game-card:hover {
+      transform: scale(1.05);
+    }
+
+    footer {
+      background: #020617;
+      padding: 15px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>🎮 SuperGame</h1>
+    <nav>
+      <a href="#games">Oyunlar</a>
+      <a href="#about">Haqqımızda</a>
+      <a href="#contact">Əlaqə</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Ən yaxşı onlayn oyunlar</h2>
+    <p>Oyna, yarış və qalib gəl!</p>
+    <button onclick="alert('Oyun tezliklə əlavə olunacaq!')">İndi Oyna</button>
+  </section>
+
+  <section id="games" class="games">
+    <div class="game-card">
+      <h3>Space Shooter</h3>
+      <p>Kosmosda döyüş oyunu</p>
+    </div>
+    <div class="game-card">
+      <h3>Car Racing</h3>
+      <p>Sürət və adrenalin</p>
+    </div>
+    <div class="game-card">
+      <h3>Zombie Attack</h3>
+      <p>Sağ qalma oyunu</p>
+    </div>
+  </section>
+
+  <section id="about">
+    <h2>📌 Haqqımızda</h2>
+    <p>SuperGame — oyun sevənlər üçün yaradılmış platformadır.</p>
+  </section>
+
+  <section id="contact">
+    <h2>📧 Əlaqə</h2>
+    <p>Email: supergame@gmail.com</p>
+  </section>
+
+  <footer>
+    <p>© 2026 SuperGame. Bütün hüquqlar qorunur.</p>
+  </footer>
+
+</body>
+</html>
